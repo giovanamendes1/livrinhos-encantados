@@ -1,0 +1,133 @@
+
+body {
+    background-color: #ffc0bd; /* Cor pastel suave */
+    font-family: "Architects Daughter", cursive;
+    color: #668fff;
+}
+
+.navbar {
+    background-color: #fff; /* Cor pastel */
+}
+
+.navbar-nav {
+    padding-right: 50px;
+}
+
+.navbar-brand {
+    color: #ff6961;
+    font-size: 60px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.genres {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar-brand:hover {
+    color: #668fff;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.card {
+    background-color: #ff6961; /* Cor pastel para os cards */
+    border: none;
+}    
+
+.card-title {
+    color: #fff; /* Tomato color for card titles */
+}
+
+.card-body,
+.card-body button {
+    color: #fff; /* Dark color for card body text */
+}
+
+/* Styles for Navbar */
+.navbar {
+    background-color: #f8f9fa; /* Light background for the navbar */
+}
+
+.navbar .nav-link {
+    color: #668fff; /* Blue color for navbar links */
+}
+
+.navbar .nav-link:hover {
+    color: #0056b3; /* Darker blue color for hover effect */
+}
+
+.footer {
+    background-color: #ff6961; /* Cor pastel */
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.cart-container {
+    position: fixed; /* Keeps the button fixed on the viewport */
+    top: 36px; /* Adjust this value as needed */
+    right: 20px; /* Adjust this value as needed */
+    z-index: 1000; /* Ensures the button stays above other content */
+}
+
+.cart {
+    background-color: rgba(255, 255, 255, 0.9); /* Adjust the background color as needed */
+    border: 1px solid #ccc; /* Optional: Add a border for distinction */
+    padding: 10px; /* Add some padding for better appearance */
+    border-radius: 5px; /* Optional: Rounded corners */
+}
+
+.cart:hover {
+    background-color: #f8f9fa; /* Change background on hover */
+}
+
+.btn-primary {
+    background-color: #668fff;
+    border-color: #ccc;
+    color: black;
+}
+
+@media (max-width: 768px) {
+.navbar-brand {
+    font-size: 2rem; /* Tamanho menor para tablets */
+}
+}
+
+@media (max-width: 820px) {
+    .cart-container {
+        top: 100px;
+        right: 50px;
+    }
+}
+
+/* Para telas menores que 576px */
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.5rem; /* Tamanho ainda menor para smartphones */
+    }
+    .cart-container {
+        top: 20px;
+        right:20px;
+        height: 80%;
+    }
+}
+
+.cart-count {
+    position: absolute;
+    top: -10px; /* ajuste conforme necessário */
+    right: -10px; /* ajuste conforme necessário */
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 14px;
+}

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Livros Infantis</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light p-4">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <strong>
+                    Livrinhos Encantados
+                </strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fantasia">Fantasia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contos">Contos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lendas-mitos">Lendas e Mitos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="cart-container">
+        <button class="btn btn-outline-dark cart" id="cartBtn">
+            <i class="bi bi-cart"></i> <img src="./images/cart.png" alt="Carrinho" style="width: 50px; height: auto;">
+            <span id="cartCount" class="cart-count">0</span>
+        </button>
+    </div>
+
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./images/banner1.png" class="d-block w-100" alt="Banner 1">
+        </div>
+        <div class="carousel-item">
+            <img src="./images/banner2.png" class="d-block w-100" alt="Banner 2">
+        </div>
+        <div class="carousel-item">
+            <img src="./images/banner3.png" class="d-block w-100" alt="Banner 3">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<div class="container my-5">
+    <section class="genres">
+        <h2 id="fantasia" class="text-center mb-4">Fantasia</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="card">
+                <img src="images/fantasia1.jpg" class="card-img-top" alt="Livro 1">
+                <div class="card-body">
+                    <h5 class="card-title">Livro de Fantasi</h5>
+                    <p class="card-text">Breve descrição do livro de fantasia.</p>
+                    <button class="btn btn-primary add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="card">
+                <img src="images/fantasia 2.jpg" class="card-img-top" alt="Livro 1">
+                <div class="card-body">
+                    <h5 class="card-title">Livro de Fantasia 1</h5>
+                    <p class="card-text">Breve descrição do livro de fantasia.</p>
+                    <button class="btn btn-primary add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="card">
+                <img src="images/fantasia3.jpg" class="card-img-top" alt="Livro 1">
+                <div class="card-body">
+                    <h5 class="card-title">Livro de Fantasia 1</h5>
+                    <p class="card-text">Breve descrição do livro de fantasia.</p>
+                    <button class="btn btn-primary add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="card">
+                <img src="images/fantasia4.jpg" class="card-img-top" alt="Livro 1">
+                <div class="card-body">
+                    <h5 class="card-title">Livro de Fantasia 1</h5>
+                    <p class="card-text">Breve descrição do livro de fantasia.</p>
+                    <button class="btn btn-primary add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="genres">
+        <h2 id="contos" class="text-center my-4">Contos</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="card">
+                    <img src="images/contos1.jpg" class="card-img-top" alt="Livro 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Livro de Contos 1</h5>
+                        <p class="card-text">Breve descrição do livro de contos.</p>
+                        <button class="btn btn-primary add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="card">
+                    <img src="images/contos2.jpg" class="card-img-top" alt="Livro 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Livro de Contos 1</h5>
+                        <p class="card-text">Breve descrição do livro de contos.</p>
+                        <button class="btn btn-primary add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="genres">
+        <h2 id="lendas-mitos" class="text-center my-4">Lendas e Mitos</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="card">
+                    <img src="images/mitos1.jpg" class="card-img-top" alt="Livro 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Livro de Lendas 1</h5>
+                        <p class="card-text">Breve descrição do livro de lendas.</p>
+                        <button class="btn btn-primary add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="card">
+                    <img src="images/mitos2.jpg" class="card-img-top" alt="Livro 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Livro de Lendas 1</h5>
+                        <p class="card-text">Breve descrição do livro de lendas.</p>
+                        <button class="btn btn-primary add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="card">
+                    <img src="images/mitos3.webp" class="card-img-top" alt="Livro 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Livro de Lendas 1</h5>
+                        <p class="card-text">Breve descrição do livro de lendas.</p>
+                        <button class="btn btn-primary add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer class="footer">
+    <p>Contato: contato@livrosinfantis.com.br</p>
+    <p>Telefone: (11) 1234-5678</p>
+    <p>&copy; 2024 Loja de Livros Infantis</p>
+</footer>
+
+<div class="modal fade" id="cartModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Carrinho de Compras</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <ul id="cartItems" class="list-group">
+                <!-- Os itens serão adicionados aqui -->
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary">Finalizar Compra</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="lib/bootstrap.bundle.min.js"></script>
+<script>
+    const cartBtn = document.getElementById('cartBtn');
+    const cartModal = new bootstrap.Modal(document.getElementById('cartModal'));
+    const cartItems = document.getElementById('cartItems');
+    const addToCartButtons = document.querySelectorAll('.add-to-cart');
+
+    addToCartButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const bookTitle = this.parentElement.querySelector('.card-title').textContent;
+            addToCart(bookTitle);
+        });
+    });
+
+    cartBtn.addEventListener('click', function() {
+        cartModal.show();
+    });
+
+    let cartCount = 0; // Inicializa a contagem do carrinho
+
+    function addToCart(bookTitle) {
+        const cartItems = document.getElementById("cartItems");
+        const newItem = document.createElement("li");
+        newItem.textContent = bookTitle;
+        newItem.classList.add("list-group-item");
+
+        // Cria o botão de exclusão
+        const removeButton = document.createElement("button");
+        removeButton.textContent = "X";
+        removeButton.classList.add("btn", "btn-danger", "btn-sm", "float-end");
+        removeButton.style.marginLeft = "10px"; // Margem à esquerda do botão
+        removeButton.addEventListener("click", function() {
+            cartItems.removeChild(newItem); // Remove o item do carrinho
+            cartCount--; // Decrementa a contagem
+            document.getElementById("cartCount").textContent = cartCount; // Atualiza o contador
+        });
+
+        // Adiciona o botão ao novo item
+        newItem.appendChild(removeButton);
+        cartItems.appendChild(newItem);
+
+        cartCount++; // Incrementa a contagem
+        document.getElementById("cartCount").textContent = cartCount; // Atualiza o texto do contador
+    }
+</script>
+</body>
+</html>
